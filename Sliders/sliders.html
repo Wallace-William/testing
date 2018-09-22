@@ -5,36 +5,43 @@
 	<link rel="stylesheet" type="text/css" href="slider_style.css">
 </head>
 <body>
-	<h1>Range Slider Practice</h1>
-	<div class="slidecontainer">
-		<div>
-			<b><span>Slider 1</span></b>
-			<input type="range" min="0" max="5" value="0" class="slider" id="range1">
-			<p>Value: <span id="range1_val"></span></p>
-	    </div>
-	    <div>
-			<b><span>Slider 2</span></b>
-			<input type="range" min="0" max="5" value="0" class="slider" id="range2">
-			<p>Value: <span id="range2_val"></span></p>
-	    </div>
-	    <div>
-			<b><span>Slider 3</span></b>
-			<input type="range" min="0" max="5" value="0" class="slider" id="range3">
-			<p>Value: <span id="range3_val"></span></p>
-	    </div>
-	    <div>
-			<b><span>Slider 4</span></b>
-			<input type="range" min="0" max="5" value="0" class="slider" id="range4">
-			<p>Value: <span id="range4_val"></span></p>
-	    </div>
-	</div>
-	<div>
-        <b><p>AVG: <span id="slider_avg"></span></p></b>
-        <img id="starimg" class="left" src="img/0.png" alt="star" style="width:auto;max-width:50%;height:25px;border:0;">
-	</div>
+	<h1 id="header">Range Slider Practice</h1>
+	<div id="sliderModal" class="modal">
+		<div class="modal-content">
+			<span id="close" class="close">&times;</span>
+			<div id="sliderDiv" class="slidecontainer">
+				<div>
+					<b><span>Slider 1</span></b>
+					<input type="range" min="0" max="5" value="0" class="slider" id="range1">
+					<p>Value: <span id="range1_val"></span></p>
+			    </div>
+			    <div>
+					<b><span>Slider 2</span></b>
+					<input type="range" min="0" max="5" value="0" class="slider" id="range2">
+					<p>Value: <span id="range2_val"></span></p>
+			    </div>
+			    <div>
+					<b><span>Slider 3</span></b>
+					<input type="range" min="0" max="5" value="0" class="slider" id="range3">
+					<p>Value: <span id="range3_val"></span></p>
+			    </div>
+			    <div>
+					<b><span>Slider 4</span></b>
+					<input type="range" min="0" max="5" value="0" class="slider" id="range4">
+					<p>Value: <span id="range4_val"></span></p>
+			    </div>
+			</div>
+			<div>
+		        <b><p>AVG: <span id="slider_avg"></span></p></b>
+		        <img id="starimg" class="left" src="img/0.png" alt="star" style="width:auto;max-width:50%;height:25px;border:0;">
+			</div>	
+        </div>
+    </div>
 	<script src="slider_script.js"></script>
 	<script src="slider_avg.js"></script>
 	<script src="slider_color.js"></script>
+	<script src="slider_modal.js"></script>
+
 </body>
 </html>
 

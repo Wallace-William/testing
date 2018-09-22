@@ -28,3 +28,4 @@ slider4.oninput = function() {
 	output4.innerHTML = this.value;
 	avg();
 }
+
