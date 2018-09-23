@@ -28,27 +28,27 @@ function color(loc,value) {
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '4') {
-      loc.style.color = 'green';
+      loc.style.color = 'lime';
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '3.5') {
-      loc.style.color = 'brown';
+      loc.style.color = 'green';
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '3') {
-      loc.style.color = 'pink';
+      loc.style.color = 'green';
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '2.5') {
-      loc.style.color = 'red';
+      loc.style.color = 'brown';
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '2') {
-      loc.style.color = 'red';
+      loc.style.color = 'pink';
       document.getElementById("starimg").src=star_img;
     }
     else if(value == '1.5') {
-      loc.style.color = 'red';
+      loc.style.color = 'pink';
       document.getElementById("starimg").src=star_img;
     }
     else if(value > '0.5' && value <= '1') {
