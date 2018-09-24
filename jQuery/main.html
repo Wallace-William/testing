@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <p id="button">Click on this text</p>
+
+    <span id="test"> This text should disappear</span>
+
+<script>
+$(document).ready(function(){
+	$("#button").click(function(){
+        $("#test").hide();
+    });
+    
+});
+</script>
+
+
+
+
+</body>
+</html>
